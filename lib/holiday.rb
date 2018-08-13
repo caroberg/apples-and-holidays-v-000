@@ -22,6 +22,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
      holiday.each do |day, object|
         if day == :memorial_day
           object << "Grill"
+          object << "Table Cloth"
         end
     end
    end
