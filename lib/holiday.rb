@@ -23,6 +23,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
         if day == :memorial_day
           object << "Grill"
         end
+        object << "Table"
     end
    end
 end
