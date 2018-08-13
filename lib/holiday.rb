@@ -36,8 +36,8 @@ def all_winter_holiday_supplies(holiday_hash)
    holiday_hash.each do |season, holiday|
      holiday.each do |attribute, element|
        if attribute == :christmas || attribute == :new_years
-         element.each do |string|
-         string
+         element.each do |supply|
+         supply
          end
        end
      end
