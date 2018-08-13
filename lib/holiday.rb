@@ -20,7 +20,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
   holiday_hash.each do |season, holiday|
      holiday.each do |day, object|
         if day == :memorial_day
-          object << "Grill"
+          object << "#{supply}"
         end
     end
    end
